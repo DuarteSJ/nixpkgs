@@ -7609,6 +7609,8 @@ self: super: with self; {
 
   junos-eznc = callPackage ../development/python-modules/junos-eznc { };
 
+  jupynium = callPackage ../development/python-modules/jupynium { };
+
   jupysql = callPackage ../development/python-modules/jupysql { };
 
   jupysql-plugin = callPackage ../development/python-modules/jupysql-plugin { };
