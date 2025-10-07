@@ -7609,6 +7609,8 @@ self: super: with self; {
 
   junos-eznc = callPackage ../development/python-modules/junos-eznc { };
 
+  jupynium = callPackage ../development/python-modules/jupynium { };
+
   jupysql = callPackage ../development/python-modules/jupysql { };
 
   jupysql-plugin = callPackage ../development/python-modules/jupysql-plugin { };
@@ -19746,6 +19748,8 @@ self: super: with self; {
   verilogae = callPackage ../development/python-modules/verilogae { };
 
   verlib2 = callPackage ../development/python-modules/verlib2 { };
+
+  version-pioneer = callPackage ../development/python-modules/version-pioneer { };
 
   versioneer = callPackage ../development/python-modules/versioneer { };
 
